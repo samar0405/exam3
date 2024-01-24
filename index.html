@@ -23,19 +23,24 @@
   <body class="home-page">
     <header>
       <div class="container">
-        <nav class="nav">
+        <div class="nav-list">
           <img src="./images/logo.svg" alt="Logo" />
-          <div class="search">
-            <input type="text" placeholder="Search bar" />
-            <img src="./images/search.svg" alt="search" />
-          </div>
-          <div class="menu">
-            <a href="../pages/courses.html">Courses</a>
-            <a href="../pages/details.html">Detail</a>
-            <a href="../pages/blog.html">Blog</a>
-          </div>
-          <button><a href="../pages/account.html">Login</a></button>
-        </nav>
+          <nav class="nav">
+            <div class="search">
+              <input type="text" placeholder="Search bar" />
+              <img src="./images/search.svg" alt="search" />
+            </div>
+            <div class="menu">
+              <a href="../pages/courses.html">Courses</a>
+              <a href="../pages/details.html">Detail</a>
+              <a href="../pages/blog.html">Blog</a>
+            </div>
+            <button><a href="../pages/account.html">Login</a></button>
+          </nav>
+          <button class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
@@ -233,8 +238,12 @@
                 </div>
               </div>
             </div>
-            <button>More Courses</button>
           </div>
+        </div>
+      </section>
+      <section class="buttsec">
+        <div class="container">
+          <div class="butt"><button>More Courses</button></div>
         </div>
       </section>
       <section class="sec3">
@@ -481,6 +490,7 @@
         </div>
       </section>
     </footer>
+    <a href="#" id="backtop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg></a>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
       integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
